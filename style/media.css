@@ -1,0 +1,86 @@
+@media(max-width:1500px) {}
+
+@media(max-width:1200px) {}
+
+@media(max-width:992px) {
+    .footer__list {
+        width: 80%;
+    }
+}
+
+@media(max-width:768px) {
+    .col-4 {
+        width: var(--col-6);
+    }
+
+    .footer__list {
+        width: 100%;
+    }
+}
+
+@media(max-width:576px) {
+    .col-4 {
+        width: var(--col-12);
+    }
+
+    .burger-list {
+        justify-content: space-around;
+    }
+
+    .burger-list__item {
+        margin: 25px;
+        display: block;
+    }
+
+    .header__nav {
+        justify-content: center;
+    }
+
+    .header {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .header__list {
+        justify-content: space-around;
+    }
+
+    .header__title {
+        font-size: 50px;
+    }
+
+    .header__price {
+        width: 60%;
+        font-size: 45px;
+    }
+
+    .header__description {
+        font-size: 30px;
+    }
+
+    .recipe__text {
+        text-align: justify;
+    }
+
+    .footer__list {
+        justify-content: space-around;
+    }
+
+    .footer__link {
+        display: block;
+        margin: 20px;
+    }
+
+    .footer__top {
+        flex-direction: column;
+    }
+
+    .footer__tel {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .shop {
+        padding: 15px;
+    }
+}
